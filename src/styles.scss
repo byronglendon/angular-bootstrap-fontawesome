@@ -1,1 +1,24 @@
-/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files
+ * Entry point of global application style.
+ * Component-specific style should not go here and be included directly as part of the components.
+ */
+
+// Theme variables, must be included before the libraries to allow overriding defaults
+@import "theme/theme-variables";
+
+// 3rd party libraries
+@import "~bootstrap/scss/bootstrap";
+
+// Theme customization
+@import "theme/theme";
+
+// Node Modules
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "~font-awesome/css/font-awesome.css";
+@import "~ngx-bootstrap/datepicker/bs-datepicker.css"; //example
+
+/* from app.json styles
+ "./node_modules/bootstrap/dist/css/bootstrap.css",
+ "./node_modules/font-awesome/css/font-awesome.css",
+ "./node_modules/ngx-bootstrap/datepicker/bs-datepicker.css",
+ */
