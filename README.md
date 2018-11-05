@@ -33,7 +33,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 npm install -g @angular/cli@6
 
 ---------------------------------
-SASS & Routing
+Sass & Routing
 ---------------------------------
 ng new angular-routing-scss --style=scss –routing
 // Or convert
