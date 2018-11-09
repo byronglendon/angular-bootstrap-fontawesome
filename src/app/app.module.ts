@@ -8,8 +8,6 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { HeaderComponent } from './ui.components/header/header.component';
 import { FooterComponent } from './ui.components/footer/footer.component';
 
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-
 const routes: Routes = [
   {
     path: '',
@@ -32,7 +30,6 @@ const routes: Routes = [
   ],
   imports: [
     BrowserModule,
-    FontAwesomeModule,
     RouterModule.forRoot(
       routes,
       { enableTracing: true } // <-- debugging purposes only
